@@ -1,0 +1,142 @@
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header 
+{
+    height: 10vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+header > div > h2 > span
+{
+    color: #FFD700;
+}
+#lyrics
+{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.part-1
+{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Caveat', cursive;
+    color: #00008b;
+}
+.part-1 b
+{
+    font-size: xx-large;
+}
+.part-1 .p1
+{
+    font-family:  'Inconsolata', monospace;
+    color: #FF0000;
+    font-weight: bolder;
+}
+.part-1 .p2
+{
+    font-family: 'Lora', serif;
+    color: #FF0000;
+}
+.part-2 
+{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+    font-size: x-large;
+    color:#006400;
+}
+.part-2 .p3{
+    font-family:'Inconsolata', monospace;
+    font-weight: bolder;
+    
+    color: #00008b;
+}
+.part-2 .p5
+{
+    font-family:'Inconsolata', monospace;
+    font-weight: bolder;
+    color: #800000;   
+}
+.part-2 .p4
+{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    color: #800080;
+}
+
+.part-3 {
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    color: #800080;
+    font-size: x-large;
+}
+
+.part-4 {
+    margin-top: 20px;
+    font-family: 'Young Serif', serif;
+    font-weight: bolder;
+    color: #800000;
+    font-size: x-large;
+}
+
+.part-5 {
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    color: #ff5733;
+    font-size: x-large;
+}
+
+.part-6 {
+    margin-top: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    color: #006400;
+    font-size: x-large;
+}
+
+.part-7 {
+    margin-top: 20px;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    color: #0000FF;
+    font-size: x-large;
+}
+
+.part-8 {
+    margin-top: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    color: #8B008B;
+    font-size: x-large;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: x-large;
+}
+/*
+font-family: 'Caveat', cursive;
+font-family: 'Inconsolata', monospace;
+font-family: 'Lora', serif;
+font-family: 'Marvel', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Tilt Prism', cursive;
+*/
